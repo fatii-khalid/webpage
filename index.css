@@ -123,4 +123,21 @@ ul {
     display: flex;
 }
 
- 
+.main_container .quote{
+    display: flex;
+    background-color: #e5e7eb;
+    height: 360px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_container .quote p{
+    color: #37383a;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+
