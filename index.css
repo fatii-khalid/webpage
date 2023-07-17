@@ -139,5 +139,42 @@ ul {
     text-align: center;
 }
 
+.main_container .signup_container{
+    display: flex;
+    background-color: #f9faf8;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
 
+.main_container .signup_container .action{
+    display: flex;
+    flex: 1;
+    background-color: #3882f6;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 120px;
+    border-radius: 20px;
+    gap: 60px;
+}
 
+.main_container .signup_container .action p{
+    font-style: bold;
+    font-size: xx-large;
+    color: #f9faf8;
+}
+
+.main_container .signup_container .action button{
+    background-color: #3882f6;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: large;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+}
+
+.main_container .signup_container .action a button:hover{
+    background-color: #38ddf6;
+}
