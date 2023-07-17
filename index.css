@@ -1,8 +1,9 @@
-/*.main_container {
+.main_container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}*/
+    margin: 0;
+    border: none;
+}
 
 /*.main_container div {
     width: 60px;
@@ -16,6 +17,7 @@
     height: 60px;
     justify-content: flex-end;
     align-items: center;
+    flex: auto;
 }
 
 .main_container .header_container1 .header {
@@ -60,10 +62,10 @@ ul {
     height: 360px;
     align-items: center;
     gap: 30px;
+    flex: auto;
 }
 
 .main_container .header_container2 div{
-   /* border: 4px solid peachpuff;*/
     flex: 1;
 }
 
@@ -103,6 +105,7 @@ ul {
     background-color: #f9faf8;
     height: 360px;
     flex-direction: column;
+    flex: auto;
 }
 
 .main_container .info_container h1{
@@ -130,6 +133,7 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex: auto;
 }
 
 .main_container .quote p{
@@ -177,4 +181,15 @@ ul {
 
 .main_container .signup_container .action a button:hover{
     background-color: #38ddf6;
+}
+
+.main_container .footer{
+    display: flex;
+    background-color: #1f2937;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    color: #f9faf8;
+    flex: auto;
 }
